@@ -65,10 +65,10 @@ html body{
       background-position:center;
       background-repeat: no-repeat
   }
-  .slide1{background-color: blue}
-  .slide2{background-color: indigo}
-  .slide3{background-color: skyblue}
-  .slide4{background-color: darkgreen}
+  .slide1{background-image:url('Assets/IMG/126309.svg') }
+  .slide2{background-image: url('Assets/IMG/1757f4ce6ba0b6c.jpg')}
+  .slide3{background-image:url('Assets/IMG/business-group-meeting-vector_23-2147495190.jpg')}
+  .slide4{background-image: url('Assets/IMG/business-partners-vector_23-2147495206.jpg')}
   .slide-content{
       display: flex;
       flex-direction: column;
