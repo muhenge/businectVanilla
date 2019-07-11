@@ -1,6 +1,7 @@
 html body{
     padding: 0;
     margin: 0;
+    background-color: rgb(220, 214, 224)
   }
   
   form{
@@ -44,11 +45,19 @@ html body{
   .paragraph{
       text-align: justify;
   }
-  .second{
+  #second{
     width: 100%;
     height: 100vh;
-    background-color: green;
+    background-color: skyblue;
   
+  }
+  #third{
+    width: 100%;
+    height: 100vh;
+    background-color: blueviolet;
+  }
+  footer{
+    background-color: teal;
   }
   .none{
     display: none;
@@ -101,7 +110,27 @@ html body{
     right: 0;
     margin-right:30px;
 }
- 
+ #link-to-accounts {
+   display: none;
+ }
   @media all and (max-device-width : 768px) {
-  
+    .main{
+      width: 100%;
+      height: 100vh;
+      display: grid;
+      grid-template-columns: 100% 0%;
+    }
+    .right{
+      width: 100%;
+    }
+    #link-to-accounts{
+      display: block;
+      border: 0; 
+      height: 35px;
+      min-width: 100%;
+      background-color:indigo;
+      color:white;
+      cursor: pointer;
+
+    }
   }
